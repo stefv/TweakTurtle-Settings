@@ -1,5 +1,16 @@
 {
-  services: {
-    
-  }
+  "model": "1.0",
+  "version": "1.0",
+  "profiles": [
+    {
+      "name": "gaming",
+      "comment" : "Service to turn off",
+      "services": [
+        {
+          "name" : "AcrSch2Svc",
+          "description" : "Acronis scheduler"
+        }
+      ]
+    }
+  ]
 }
